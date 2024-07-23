@@ -5,7 +5,7 @@ function ProfileInfo() {
   return (
     <div className="profile-info">
       <img
-        src="images/zoro.jpeg"
+        src="images/Homescreen.jpg"
         alt="profile picture"
         className="profile-picture"
       ></img>
