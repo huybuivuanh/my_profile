@@ -106,12 +106,17 @@ function HomePage() {
         {/* <a className="pdf" href="/public/images/resume.pdf" target="_blank">
           View My Resume (PDF)
         </a> */}
-        <iframe
+        {/* <iframe
           src="images/resume.pdf"
           width="100%"
           height="1130px"
           title="Resume PDF"
-        />
+        /> */}
+        <img
+          src="images/resume.jpg"
+          alt="resume"
+          style={{ width: "1000px" }}
+        ></img>
       </div>
 
       {/* contact info */}
