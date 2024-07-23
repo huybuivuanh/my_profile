@@ -103,9 +103,15 @@ function HomePage() {
       {/* Resume */}
       <div className="section">
         <h2>My Resume</h2>
-        <a className="pdf" href="/public/images/resume.pdf" target="_blank">
+        {/* <a className="pdf" href="/public/images/resume.pdf" target="_blank">
           View My Resume (PDF)
-        </a>
+        </a> */}
+        <iframe
+          src="images/resume.pdf"
+          width="100%"
+          height="1130px"
+          title="Resume PDF"
+        />
       </div>
 
       {/* contact info */}
