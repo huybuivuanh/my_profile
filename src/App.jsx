@@ -14,7 +14,7 @@ function HomePage() {
 
       {/* About me */}
       <div className="section">
-        <h2 style={{ marginBottom: "5px" }}>About Me</h2>
+        <h2 style={{ marginBottom: "5px" }}>Background</h2>
         <AboutMe></AboutMe>
       </div>
 
@@ -48,11 +48,11 @@ function HomePage() {
               text="Python"
             ></Skills>
 
-            <Skills
+            {/* <Skills
               icon="images/scala icon.png"
               alternative="scala icon"
               text="Scala"
-            ></Skills>
+            ></Skills> */}
           </li>
           <li>
             <h3>Frameworks</h3>
@@ -87,7 +87,7 @@ function HomePage() {
       {/* Resume */}
       <div className="section">
         <h2>My Resume</h2>
-        <a className="pdf" href="images/resume.pdf" target="_blank">
+        <a className="pdf" href="images/resume 2.pdf" target="_blank">
           View My Resume (PDF)
         </a>
       </div>

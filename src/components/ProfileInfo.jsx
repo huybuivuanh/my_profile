@@ -5,7 +5,7 @@ function ProfileInfo() {
   return (
     <div className="profile-info">
       <img
-        src="images/Homescreen.jpg"
+        src="images/profile picture.jpg"
         alt="profile picture"
         className="profile-picture"
       ></img>
