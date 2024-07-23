@@ -119,7 +119,7 @@ function HomePage() {
       <div className="section">
         <h2 style={{ marginBottom: "5px" }}>Links</h2>
 
-        {/* <Link
+        <Link
           icon="images/facebook icon.png"
           text="Facebook"
           url="https://www.facebook.com/buivuanhhuy"
@@ -138,7 +138,7 @@ function HomePage() {
           text="Tiktok"
           url="https://www.tiktok.com/@buivuanhhuy"
           alternative="tiktok icon"
-        ></Link> */}
+        ></Link>
 
         <Link
           icon="images/linkedin icon.png"
