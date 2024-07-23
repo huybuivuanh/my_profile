@@ -68,6 +68,22 @@ function HomePage() {
               text="ReactJS ExpressJS NodeJS"
             ></Skills>
           </li>
+
+          <li>
+            <h3>Database</h3>
+            <Skills
+              icon="images/mysql icon.png"
+              alternative="mysql icon"
+              text="MySQL"
+            ></Skills>
+
+            <Skills
+              icon="images/mongodb icon.png"
+              alternative="mongodb icon"
+              text="MongoDB"
+            ></Skills>
+          </li>
+
           <li>
             <h3>Soft Skills</h3>
             <p>Teamwork</p>
@@ -87,7 +103,7 @@ function HomePage() {
       {/* Resume */}
       <div className="section">
         <h2>My Resume</h2>
-        <a className="pdf" href="images/resume 2.pdf" target="_blank">
+        <a className="pdf" href="/public/images/resume.pdf" target="_blank">
           View My Resume (PDF)
         </a>
       </div>

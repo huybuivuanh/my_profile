@@ -12,7 +12,7 @@ function AboutMe() {
         university in 2021 and have enjoyed learning programming here.
         Throughout the years, I've developed a wide range of technical and soft
         skills. I'm currently seeking an internship to enhance my skills and
-        gain work experience before graduating.
+        gain work experience.
       </p>
     </div>
   );
