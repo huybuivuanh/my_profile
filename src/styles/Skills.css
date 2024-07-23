@@ -1,0 +1,19 @@
+.text {
+  font-style: bold;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.skill-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin-bottom: 40px;
+}

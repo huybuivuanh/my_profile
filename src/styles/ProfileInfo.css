@@ -1,0 +1,15 @@
+.profile-info {
+  display: flex;
+  flex-direction: column; /* Stack img and h1 vertically */
+  align-items: center; /* Center img and h1 horizontally within the container */
+  margin-top: 50px;
+}
+
+.profile-picture {
+  width: 400px;
+  height: 400px;
+  /* margin-bottom: 10px; */
+  border-radius: 50%;
+  object-fit: cover;
+  position: center;
+}

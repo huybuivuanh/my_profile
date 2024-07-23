@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+body {
+  background-color: #433f3f; /* Dark background color */
+  color: #ffffff;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-size: 45px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li {
+  content: "•";
+  font-size: 35px;
+}
+
+.container {
+  margin: 0 30px 0 30px;
+}
+
+.section {
+  margin: 20px 0px 20px 15px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.pdf {
+  font-style: bold;
+  color: #ffffff;
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Button Styles */
+button {
+  background-color: #1e90ff; /* DodgerBlue background */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  outline: none; /* Remove outline */
+}
+
+button:hover {
+  background-color: #187bcd; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+button:active {
+  background-color: #1565a3; /* Even darker blue on active */
+  transform: translateY(0); /* Reset lift on active */
+}
+
+button:focus {
+  outline: 2px solid #1e90ff; /* Focus outline for accessibility */
 }
