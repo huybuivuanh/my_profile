@@ -89,7 +89,7 @@ function HomePage() {
         <h2>My Resume</h2>
         <a
           className="pdf"
-          href="images/resume.pdf"
+          href="../public/images/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
