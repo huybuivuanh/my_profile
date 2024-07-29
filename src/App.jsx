@@ -113,7 +113,7 @@ function HomePage() {
           title="Resume PDF"
         /> */}
         <img
-          src="images/resume.jpg"
+          src="images/resume.png"
           alt="resume"
           style={{ width: "1000px" }}
         ></img>
