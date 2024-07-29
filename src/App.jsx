@@ -164,7 +164,7 @@ function HomePage() {
 
         <Link
           icon="images/linkedin icon.png"
-          text="LinkedIN"
+          text="LinkedIn"
           url="https://www.linkedin.com/in/huy-bui-1467a8277/"
           alternative="linkedin icon"
         ></Link>
