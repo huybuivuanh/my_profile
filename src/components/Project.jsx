@@ -7,22 +7,22 @@ function Project() {
         <li>
           <h3>Farm Manager App</h3>
           <p style={{ fontSize: "22px", lineHeight: "2" }}>
-            This is a group project completed by 5 people during my third year
-            in a Software Engineer course, a farm manager app. The main features
-            of this app are organizing data of crop fields, make neccessary
-            calculations, and provide a graph summarizing the data.<br></br>This
-            app frontend is built using JavaFX and backend was implemented using
-            java. Data is recorded using MongoDB.
+            This group project, completed by a team of five during my third year
+            in a Software Engineering course, is a farm manager app. The app's
+            main features include organizing crop field data, performing
+            necessary calculations, and providing graphical data summaries. The
+            frontend is built using JavaFX, while the backend is implemented in
+            Java. Data is stored in MongoDB.
           </p>
         </li>
         <li>
           <h3>Channel-based Tool Web App</h3>
           <p style={{ fontSize: "22px", lineHeight: "2" }}>
-            Channel-based Tool is a fullstack web app with frontend implemented
-            with ReactJS and backend is implemented in javascript using NodeJS
-            environment. I used ExpressJS for server and data is save in MySQL
-            database.<br></br>This web app allows users to log in, create
-            channels, post discussions, comments, replies.
+            Channel-based Tool is a full-stack web application with a frontend
+            implemented in ReactJS and a backend developed in JavaScript using a
+            NodeJS environment. I utilized ExpressJS for the server, with data
+            saved in a MySQL database. This web app allows users to log in,
+            create channels, post discussions, and add comments and replies.
           </p>
         </li>
       </ul>
